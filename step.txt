@@ -1,1 +1,30 @@
 project complet
+
+
+
+
+2. sudo apt update
+3. sudo apt install -y ca-certificates curl
+4. curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+5. sudo apt install -y nodejs
+6. sudo npm install -g pm2
+
+
+
+Install Docker on EC2
+
+Start docker service:
+1. sudo apt install docker.io -y
+Enable docker on boot:
+2. sudo systemctl start docker
+Check docker version:
+3. docker --version
+
+
+project app dir to run this cmd
+Give Docker Permission
+1. sudo usermod -aG docker ubuntu
+Then reload session:
+2. newgrp docker
+Now test:
+3. docker ps
