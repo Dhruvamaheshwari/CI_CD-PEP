@@ -19,8 +19,8 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Build and push Docker image
-        run: docker build -t dhruvamaheshwari47/cicd-test:latest .
+      run: docker build -t dhruvamaheshwari47/cicd-test:latest .
 
     - name: Push Docker image to DockerHub
-        run: docker push dhruvamaheshwari47/cicd-test:latest
+      run: docker push dhruvamaheshwari47/cicd-test:latest
 
