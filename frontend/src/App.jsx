@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { Check, Trash2, Plus } from 'lucide-react'
 import axios from 'axios'
 
-const API_URL = 'http://localhost:5000/api/todos'
+const API_URL = '/api/todos'
 
 function App() {
   const [todos, setTodos] = useState([])
