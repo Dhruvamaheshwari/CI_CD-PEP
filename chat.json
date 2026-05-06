@@ -1,0 +1,42 @@
+{
+  "lpu": [
+    {
+      "id": "1777618553803",
+      "roomId": "lpu",
+      "text": "kya haal",
+      "user": "dhruva",
+      "avatar": null,
+      "time": "12:25 PM",
+      "timestamp": "2026-05-01T06:55:53.803Z"
+    },
+    {
+      "id": "1777618585023",
+      "roomId": "lpu",
+      "text": "hey",
+      "user": "dhruva",
+      "avatar": null,
+      "time": "12:26 PM",
+      "timestamp": "2026-05-01T06:56:25.023Z"
+    }
+  ],
+  "name": [
+    {
+      "id": "1777618960182",
+      "roomId": "name",
+      "text": "hey",
+      "user": "dhruva",
+      "avatar": null,
+      "time": "12:32 PM",
+      "timestamp": "2026-05-01T07:02:40.182Z"
+    },
+    {
+      "id": "1777708114374",
+      "roomId": "name",
+      "text": "hello",
+      "user": "arsh",
+      "avatar": null,
+      "time": "01:18 pm",
+      "timestamp": "2026-05-02T07:48:34.375Z"
+    }
+  ]
+}
